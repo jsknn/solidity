@@ -1,12 +1,28 @@
-# solidity
-
-Solidity Program to mint and burn value 
- This solidity program takes in address and value as input and store them. We can also update the value by adding or deleting it . 
-
-
+#METACRAFTERS-Solidity-Beginners-Challenge
 Description
-This program helps us understand how we can add tokens to an address and also keep tracking the overall transactions of tokens that are added and removed over a period of time.
+This is the Final Challenge of the course on Solidty for Beginners on METACRAFTERS.
+Tasks Completed
+The following tasks have been completed in this challenge:
 
+1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
+2. Your contract will have a mapping of addresses to balances (address => uint)
+3. You will have a mint function that takes two parameters: an address and a value. 
+   The function then increases the total supply by that number and increases the balance 
+   of the “sender” address by that amount
+4. Your contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. 
+   It will take an address and value just like the mint functions. It will then deduct the value from the total supply 
+   and from the balance of the “sender”.
+5. Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal 
+   to the amount that is supposed to be burned.
+How to Run the Project
+To run the project, follow the instructions below:
+
+GoTo (https://remix.ethereum.org/).
+Open Remix IDE and create a new file.
+Copy and paste the code of the smart contract into the file.
+Compile the smart contract using the Solidity compiler.
+Deploy the smart contract on a local blockchain or on a testnet.
+Test the smart contract by interacting with it using Remix IDE or other compatible tools.
 
 John Sharon Kumar
  @jsknn
