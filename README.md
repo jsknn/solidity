@@ -1,7 +1,9 @@
-#METACRAFTERS-Solidity-Beginners-Challenge
-Description
+# METACRAFTERS-Solidity-Beginners-Challenge
+## Description:
+
 This is the Final Challenge of the course on Solidty for Beginners on METACRAFTERS.
-Tasks Completed
+## Tasks Completed:
+
 The following tasks have been completed in this challenge:
 
 1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
@@ -14,7 +16,7 @@ The following tasks have been completed in this challenge:
    and from the balance of the “sender”.
 5. Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal 
    to the amount that is supposed to be burned.
-How to Run the Project
+## How to Run the Project
 To run the project, follow the instructions below:
 
 GoTo (https://remix.ethereum.org/).
@@ -23,9 +25,9 @@ Copy and paste the code of the smart contract into the file.
 Compile the smart contract using the Solidity compiler.
 Deploy the smart contract on a local blockchain or on a testnet.
 Test the smart contract by interacting with it using Remix IDE or other compatible tools.
-
+## Author
 John Sharon Kumar
  @jsknn
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
